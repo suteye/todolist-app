@@ -38,7 +38,7 @@ export async function registerUser(username: string, password: string) {
             { "x-hasura-admin-secret": HASURA_ADMIN_SECRET }
         );
 
-        return data;
+        return data
     } catch (error) {
         throw new Error("Error registering user");
     }

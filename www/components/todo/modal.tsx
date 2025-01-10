@@ -1,9 +1,9 @@
 "use client"
 import React, { useState, useEffect } from 'react';
 import { useSession } from 'next-auth/react';
-import { addTask as addTaskToServer } from '@/app/actions/todos/add-task';
-import { updateTask as updateTaskToServer } from '@/app/actions/todos/update-task';
-import { useTaskStore } from '@/lib/store/task-store';
+import { addTask as addTaskToServer } from '../../app/actions/todos/add-task';
+import { updateTask as updateTaskToServer } from '../../app/actions/todos/update-task';
+import { useTaskStore } from '../../lib/store/task-store';
 
 interface ModalProps {
   isOpen: boolean;

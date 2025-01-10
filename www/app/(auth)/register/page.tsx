@@ -1,8 +1,9 @@
 "use client"
 import { useState } from "react";
-import CardWrapper from "@/components/auth/card-wrapper";
-import { registerUser } from "@/app/actions/auth/register-action";
-import Popup from "@/components/auth/popup-alert";
+import CardWrapper from "../../../components/auth/card-wrapper";
+import { registerUser } from "../../actions/auth/register-action";
+import Popup from "../../../components/auth/popup-alert";
+import React from "react";
 
 
 

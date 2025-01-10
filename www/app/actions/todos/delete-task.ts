@@ -1,6 +1,6 @@
 "use server"
 import { request } from 'graphql-request';
-import { DELETE_TASK_MUTATION } from '@/lib/graphql/graphql';
+import { DELETE_TASK_MUTATION } from '../../../lib/graphql/graphql';
 
 const HASURA_ENDPOINT = process.env.HASURA_PROJECT_ENDPOINT!;
 const HASURA_ADMIN_SECRET = process.env.HASURA_ADMIN_SECRET!;

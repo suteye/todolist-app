@@ -1,6 +1,6 @@
 "use server"
 import { revalidatePath } from "next/cache";
-import { EDIT_TASK_MUTATION } from "@/lib/graphql/graphql";
+import { EDIT_TASK_MUTATION } from "../../../lib/graphql/graphql";
 
 
 export async function editTask({ id, title, description, priority, completed }: { id: number; title?: string; description?: string; priority?: string; completed?: boolean }) {

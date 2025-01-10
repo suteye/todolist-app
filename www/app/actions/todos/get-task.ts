@@ -1,5 +1,5 @@
 "use server"
-import { GET_TASKS_QUERY } from '@/lib/graphql/graphql';
+import { GET_TASKS_QUERY } from '../../../lib/graphql/graphql';
 import { request } from 'graphql-request';
 
 const HASURA_ENDPOINT = process.env.HASURA_PROJECT_ENDPOINT!;

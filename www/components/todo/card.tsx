@@ -1,6 +1,6 @@
-import { updateTask as updateTaskToServer } from '@/app/actions/todos/update-task';
-import { deleteTask as deleteTaskToServer } from '@/app/actions/todos/delete-task';
-import { useTaskStore } from '@/lib/store/task-store';
+import { updateTask as updateTaskToServer } from '../../app/actions/todos/update-task';
+import { deleteTask as deleteTaskToServer } from '../../app/actions/todos/delete-task';
+import { useTaskStore } from '../../lib/store/task-store';
 
 export interface TaskProps {
   id: number;

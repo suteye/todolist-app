@@ -3,8 +3,8 @@
 import { signIn, useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import CardAuth from "@/components/auth/card-wrapper";
-import { useState, useEffect } from "react";
+import CardAuth from "../../../components/auth/card-wrapper"
+import React,{ useState, useEffect } from "react";
 
 export default function Page() {
   const { data: session } = useSession();

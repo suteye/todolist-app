@@ -1,5 +1,5 @@
 "use client";
-import { getAnimationClasses } from "@/lib/animation";
+import { getAnimationClasses } from "@/www/lib/animation";
 import React, { useState, useEffect } from "react";
 import StatusIcon from "./status-icons";
 import { redirect } from "next/navigation";
